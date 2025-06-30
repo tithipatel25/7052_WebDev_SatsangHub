@@ -1,0 +1,150 @@
+button {
+  padding: 10px 20px;
+  background-color: #f4a261;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #e76f51;
+}
+
+.center-paragraph {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 15px;
+  font-weight: normal;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+
+/* Top bar */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #304674;
+  padding: 15px 30px;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 50px;
+  width: auto;
+}
+
+.logo-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  font-size: 18;
+}
+
+.nav-links p {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links li a:hover {
+  color: #ddd;
+}
+
+/*Home Page Pictures & Title*/
+.welcome-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.side-images {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.circle-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.welcome-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/*Footer*/
+.footer {
+  background-color: #304674;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* Main content */
+.main-content {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 20px;
+}
+
+/*About content*/
+.about-content {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 20px;
+}
+
+/*Topics content*/
+.topics-content {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 20px;
+}
